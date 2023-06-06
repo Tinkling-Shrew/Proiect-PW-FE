@@ -1,0 +1,9 @@
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+input, select, button {
+  font-family: "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+
+  max-width: fit-content;
+
+  padding: 4px 8px;
+
+  flex-grow: 1;
+}
+
+input {
+  max-height: 2rem;
+  width: 100%;
+}
+
+button {
+  background-color: var(--primary-color);
+
+  border: none;
+  border-radius: 10px;
+
+  padding: .5em;
+
+  box-shadow: none;
+  outline: none;
+  outline-offset: 0;
+
+  transform: scale(0.9);
+
+  transition: .05s;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.5);
+
+  box-shadow: 5px 5px 0 #565656;
+}
+
+.root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}

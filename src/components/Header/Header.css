@@ -1,0 +1,77 @@
+.Header {
+    z-index: 2;
+
+    background-color: white;
+    border: 1px solid black;
+
+    width: 100dvw;
+    height: fit-content;
+
+    padding: .5rem 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-flow: wrap;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    gap: 1rem;
+}
+
+.header-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-grow: 1;
+
+    gap: 1rem;
+}
+
+.left {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.right {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.center {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    background-color: var(--primary-color);
+
+    height: 100%;
+
+    text-overflow: "";
+    white-space: nowrap;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    padding: .5rem;
+}
+
+.user-button {
+    border-radius: 2rem;
+
+    min-height: 5rem;
+    min-width: 5rem;
+
+    height: 2rem;
+    width: 2rem;
+}
